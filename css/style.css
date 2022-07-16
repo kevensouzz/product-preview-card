@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Arimo:ital@0;1&family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Caveat:wght@400;500;600;700&family=Dosis:wght@700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Arimo:ital@0;1&family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Caveat:wght@400;500;600;700&family=Dosis:wght@700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Shadows+Into+Light&display=swap');
+
+:root {
+    /* FONTES */
+    --fonte1: 'Montserrat';
+    --fonte2: 'Fraunces';
+
+    /* CORES */
+    --cyan: #3c8067;
+    --cyan-hover-focus: #073d29;
+    --cream: #f2ebe3;
+
+    --Very-dark-blue: #1c232b;
+    --Dark-grayish-blue: #6c7289;
+    --White: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: var(--cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article {
+    border-radius: 10px;
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    background: var(--White)
+}
+
+.imagem-produto {
+    width: 20vw;
+    height: 60vh;
+}
+
+.imagem-produto img {
+    border-radius: 10px 0px 0px 10px;
+    width: 20vw;
+    height: 60vh;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.info-produto {
+    margin: 30px;
+    display: inline;
+}
+
+.nome-produto {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-family: var(--fonte1);
+    color: var(--Dark-grayish-blue);
+}
+
+.titulo-produto {
+    font-family: var(--fonte2);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.description-produto {
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+    font-family: var(--fonte1);
+    color: var(--Dark-grayish-blue);
+    line-height: 1.3rem;
+}
+
+.preco {
+    width: 85%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: var(--fonte2);
+}
+
+.preco-atual {
+    font-size: 2rem;
+    color: var(--cyan);
+}
+
+.preco-anterior {
+    color: var(--Dark-grayish-blue);
+    font-size: 0.7rem;
+}
+
+.botao-de-compra {
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 15%;
+    background-color: var(--cyan);
+    color: var(--White);
+}
+
+.botao-de-compra:hover {
+    cursor: pointer;
+    background-color: var(--cyan-hover-focus);
+}
+
+.botao-de-compra p {
+    font-family: var(--fonte1);
+    font-weight: 500;
+}
+
+.info-produto img {
+    padding-right: 5px;
+    width: 20px;
+    height: 15px;
+}

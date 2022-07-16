@@ -21,10 +21,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size (1440x800/375x667)
 - See hover and focus states for interactive elements
 
-### Links
-
-- Live Site URL: [live site URL](https://your-live-site-url.com)
-
 ## My process
 
 ### Built with

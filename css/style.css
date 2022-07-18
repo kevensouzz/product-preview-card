@@ -54,6 +54,7 @@ body {
 }
 
 .info-produto {
+    cursor: default;
     margin: 30px;
     display: inline;
 }

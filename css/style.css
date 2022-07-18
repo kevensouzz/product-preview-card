@@ -109,6 +109,7 @@ body {
     height: 50px;
     background-color: var(--cyan);
     color: var(--White);
+    transition: 0.5s;
 }
 
 .botao-de-compra:hover {

@@ -33,20 +33,20 @@ body {
 .article {
     border-radius: 10px;
     display: flex;
-    width: 40vw;
-    height: 60vh;
+    width: 576px;
+    height: 480px;
     background: var(--White);
 }
 
 .imagem-produto {
-    width: 20vw;
-    height: 60vh;
+    width: 288px;
+    height: 480px;
 }
 
 .imagem-produto img {
     border-radius: 10px 0px 0px 10px;
-    width: 20vw;
-    height: 60vh;
+    width: 288px;
+    height: 480px;
 }
 
 .img-mobile {
